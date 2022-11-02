@@ -1,0 +1,80 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+  {
+    "key": "shift+cmd+d",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+d",
+    "command": "-editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
+  },
+  {
+    "key": "cmd+a",
+    "command": "editor.action.smartSelect.expand",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "ctrl+shift+right",
+    "command": "-editor.action.smartSelect.expand",
+    "when": "editorTextFocus"
+  },
+  {
+    "key": "cmd+e",
+    "command": "workbench.action.openRecent"
+  },
+  {
+    "key": "ctrl+r",
+    "command": "-workbench.action.openRecent"
+  },
+  {
+    "key": "shift+cmd+down",
+    "command": "cursorColumnSelectDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+alt+cmd+down",
+    "command": "-cursorColumnSelectDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+down",
+    "command": "cursorColumnSelectDown",
+    "when": "editorColumnSelection && textInputFocus"
+  },
+  {
+    "key": "shift+down",
+    "command": "-cursorColumnSelectDown",
+    "when": "editorColumnSelection && textInputFocus"
+  },
+  {
+    "key": "shift+cmd+up",
+    "command": "cursorColumnSelectUp",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+alt+cmd+up",
+    "command": "-cursorColumnSelectUp",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+up",
+    "command": "cursorColumnSelectUp",
+    "when": "editorColumnSelection && textInputFocus"
+  },
+  {
+    "key": "shift+up",
+    "command": "-cursorColumnSelectUp",
+    "when": "editorColumnSelection && textInputFocus"
+  },
+  {
+    "key": "cmd+o",
+    "command": "workbench.action.files.openFolder"
+  },
+  {
+    "key": "cmd+down",
+    "command": "-editor.action.goToDeclaration",
+    "when": "editorTextFocus"
+  }
+]
